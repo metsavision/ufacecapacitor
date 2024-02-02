@@ -1,6 +1,6 @@
 # ufacesdk
 
-uface sdk fro capacitor
+uface sdk fr capacitor
 
 ## Install
 
@@ -13,24 +13,29 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`ufacesdk.verify(...)`](#verify)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### verify(...)
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+verify(param: { value: string; })
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
+| Param         | Type                                             |
+| ------------- | ------------------------------------------------ |
+| **`param`** | <code>{ baseurl: string; , token: string; }</code> |
 
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+### addListener(...)
+
+```typescript
+addListener( "onVerified" , result : { value: string; })
+```
 
 --------------------
 
