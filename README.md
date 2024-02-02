@@ -31,6 +31,8 @@ verify(param: { value: string; })
 | **`param`** | <code>{ baseurl: string; , token: string; }</code> |
 
 
+* [`ufacesdk.addListener(...)`](#addListener)
+* 
 ### addListener(...)
 
 ```typescript
