@@ -1,0 +1,11 @@
+framework module MKSquareDetector {
+  umbrella header "MKSquareDetector.h"
+  export *
+
+  module * { export * }
+}
+
+module MKSquareDetector.Swift {
+  header "MKSquareDetector-Swift.h"
+  requires objc
+}

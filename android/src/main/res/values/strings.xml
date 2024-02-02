@@ -1,0 +1,19 @@
+<resources>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="face_show_face_msg">Please look at the camera</string>
+    <string name="face_result_fake">Fake attack detected</string>
+    <string name="face_result_mask">Please remove your mask</string>
+    <string name="face_result_too_small">Please move your face close to camera</string>
+    <string name="face_result_too_big">Please move your face further away</string>
+
+    <string name="license">4F5A465276310081161DB4851F3B16C45F2F3AE46EA485506BA8783B7840FF52A8F872D7EE4B6A8F</string>
+</resources>

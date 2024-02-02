@@ -1,0 +1,5095 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UFaceDetectorMango",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UFaceImageDetector",
+        "printedName": "UFaceImageDetector",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setAntiSpoofingUse",
+            "printedName": "setAntiSpoofingUse(useSpoof1:useSpoof2:useMaskDetect:useLocalFeature:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageDetector(im)setAntiSpoofingUseWithUseSpoof1:useSpoof2:useMaskDetect:useLocalFeature:",
+            "mangledName": "$s18UFaceDetectorMango0a5ImageB0C18setAntiSpoofingUse9useSpoof10I6Spoof20I10MaskDetect0I12LocalFeatureySb_S3btF",
+            "moduleName": "UFaceDetectorMango",
+            "objc_name": "setAntiSpoofingUseWithUseSpoof1:useSpoof2:useMaskDetect:useLocalFeature:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initDetector",
+            "printedName": "initDetector(licenseKey:modelDirectory:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UFaceDetectorMango.UFaceError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UFaceError",
+                    "printedName": "UFaceDetectorMango.UFaceError",
+                    "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageDetector(im)initDetectorWithLicenseKey:modelDirectory:",
+            "mangledName": "$s18UFaceDetectorMango0a5ImageB0C04initB010licenseKey14modelDirectoryAA0A5ErrorCSgSS_SStF",
+            "moduleName": "UFaceDetectorMango",
+            "objc_name": "initDetectorWithLicenseKey:modelDirectory:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "detectFace",
+            "printedName": "detectFace(pngData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UFaceImageResult",
+                "printedName": "UFaceDetectorMango.UFaceImageResult",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageDetector(im)detectFaceWithPngData:",
+            "mangledName": "$s18UFaceDetectorMango0a5ImageB0C10detectFace7pngDataAA0aD6ResultC10Foundation0H0V_tF",
+            "moduleName": "UFaceDetectorMango",
+            "objc_name": "detectFaceWithPngData:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UFaceImageDetector",
+                "printedName": "UFaceDetectorMango.UFaceImageDetector",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageDetector"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageDetector(im)init",
+            "mangledName": "$s18UFaceDetectorMango0a5ImageB0CACycfc",
+            "moduleName": "UFaceDetectorMango",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageDetector",
+        "mangledName": "$s18UFaceDetectorMango0a5ImageB0C",
+        "moduleName": "UFaceDetectorMango",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UFaceDetectorMango",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UFaceDetectorMango"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "UFaceDetectorMango"
+      },
+      {
+        "kind": "Import",
+        "name": "UFaceDetectorMango.MKGAmango",
+        "printedName": "UFaceDetectorMango.MKGAmango",
+        "declKind": "Import",
+        "moduleName": "UFaceDetectorMango"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UFaceDetectorDelegate",
+        "printedName": "UFaceDetectorDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "ufaceDetector",
+            "printedName": "ufaceDetector(detector:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UFaceDetector",
+                "printedName": "UFaceDetectorMango.UFaceDetector",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UFaceError",
+                "printedName": "UFaceDetectorMango.UFaceError",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(pl)UFaceDetectorDelegate(im)ufaceDetectorWithDetector:error:",
+            "mangledName": "$s18UFaceDetectorMango0aB8DelegateP05ufaceB08detector5erroryAA0aB0C_AA0A5ErrorCtF",
+            "moduleName": "UFaceDetectorMango",
+            "genericSig": "<τ_0_0 where τ_0_0 : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "sugared_genericSig": "<Self where Self : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ufaceDetector",
+            "printedName": "ufaceDetector(detector:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UFaceDetector",
+                "printedName": "UFaceDetectorMango.UFaceDetector",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UFaceResult",
+                "printedName": "UFaceDetectorMango.UFaceResult",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(pl)UFaceDetectorDelegate(im)ufaceDetectorWithDetector:result:",
+            "mangledName": "$s18UFaceDetectorMango0aB8DelegateP05ufaceB08detector6resultyAA0aB0C_AA0A6ResultCtF",
+            "moduleName": "UFaceDetectorMango",
+            "genericSig": "<τ_0_0 where τ_0_0 : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "sugared_genericSig": "<Self where Self : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ufaceDetectorSetCameraSessionComplete",
+            "printedName": "ufaceDetectorSetCameraSessionComplete()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(pl)UFaceDetectorDelegate(im)ufaceDetectorSetCameraSessionComplete",
+            "mangledName": "$s18UFaceDetectorMango0aB8DelegateP05ufaceB24SetCameraSessionCompleteyyF",
+            "moduleName": "UFaceDetectorMango",
+            "genericSig": "<τ_0_0 where τ_0_0 : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "sugared_genericSig": "<Self where Self : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ufaceDetectorPitchYawRoll",
+            "printedName": "ufaceDetectorPitchYawRoll(pitch:yaw:roll:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(pl)UFaceDetectorDelegate(im)ufaceDetectorPitchYawRollWithPitch:yaw:roll:",
+            "mangledName": "$s18UFaceDetectorMango0aB8DelegateP05ufaceB12PitchYawRoll5pitch3yaw4rollySf_S2ftF",
+            "moduleName": "UFaceDetectorMango",
+            "genericSig": "<τ_0_0 where τ_0_0 : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "sugared_genericSig": "<Self where Self : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ufaceIsDetectFace",
+            "printedName": "ufaceIsDetectFace(isDetectFace:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(pl)UFaceDetectorDelegate(im)ufaceIsDetectFaceWithIsDetectFace:",
+            "mangledName": "$s18UFaceDetectorMango0aB8DelegateP17ufaceIsDetectFace02isgH0ySb_tF",
+            "moduleName": "UFaceDetectorMango",
+            "genericSig": "<τ_0_0 where τ_0_0 : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "sugared_genericSig": "<Self where Self : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ufaceDetectSmallFace",
+            "printedName": "ufaceDetectSmallFace()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(pl)UFaceDetectorDelegate(im)ufaceDetectSmallFace",
+            "mangledName": "$s18UFaceDetectorMango0aB8DelegateP20ufaceDetectSmallFaceyyF",
+            "moduleName": "UFaceDetectorMango",
+            "genericSig": "<τ_0_0 where τ_0_0 : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "sugared_genericSig": "<Self where Self : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ufaceDetectLargeFace",
+            "printedName": "ufaceDetectLargeFace()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(pl)UFaceDetectorDelegate(im)ufaceDetectLargeFace",
+            "mangledName": "$s18UFaceDetectorMango0aB8DelegateP20ufaceDetectLargeFaceyyF",
+            "moduleName": "UFaceDetectorMango",
+            "genericSig": "<τ_0_0 where τ_0_0 : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "sugared_genericSig": "<Self where Self : UFaceDetectorMango.UFaceDetectorDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@UFaceDetectorMango@objc(pl)UFaceDetectorDelegate",
+        "mangledName": "$s18UFaceDetectorMango0aB8DelegateP",
+        "moduleName": "UFaceDetectorMango",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UFaceDetector",
+        "printedName": "UFaceDetector",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isDetecting",
+            "printedName": "isDetecting",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(py)isDetecting",
+            "mangledName": "$s18UFaceDetectorMango0aB0C11isDetectingSbvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)isDetecting",
+                "mangledName": "$s18UFaceDetectorMango0aB0C11isDetectingSbvg",
+                "moduleName": "UFaceDetectorMango",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewLayer",
+            "printedName": "previewLayer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "AVFoundation.AVCaptureVideoPreviewLayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVCaptureVideoPreviewLayer",
+                    "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                    "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(py)previewLayer",
+            "mangledName": "$s18UFaceDetectorMango0aB0C12previewLayerSo021AVCaptureVideoPreviewE0CSgvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AVFoundation.AVCaptureVideoPreviewLayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVCaptureVideoPreviewLayer",
+                        "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                        "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)previewLayer",
+                "mangledName": "$s18UFaceDetectorMango0aB0C12previewLayerSo021AVCaptureVideoPreviewE0CSgvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AVFoundation.AVCaptureVideoPreviewLayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVCaptureVideoPreviewLayer",
+                        "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                        "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)setPreviewLayer:",
+                "mangledName": "$s18UFaceDetectorMango0aB0C12previewLayerSo021AVCaptureVideoPreviewE0CSgvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0aB0C12previewLayerSo021AVCaptureVideoPreviewE0CSgvM",
+                "mangledName": "$s18UFaceDetectorMango0aB0C12previewLayerSo021AVCaptureVideoPreviewE0CSgvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UFaceDetectorMango.UFaceDetectorDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UFaceDetectorDelegate",
+                    "printedName": "UFaceDetectorMango.UFaceDetectorDelegate",
+                    "usr": "c:@M@UFaceDetectorMango@objc(pl)UFaceDetectorDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(py)delegate",
+            "mangledName": "$s18UFaceDetectorMango0aB0C8delegateAA0aB8Delegate_pSgvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UFaceDetectorMango.UFaceDetectorDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UFaceDetectorDelegate",
+                        "printedName": "UFaceDetectorMango.UFaceDetectorDelegate",
+                        "usr": "c:@M@UFaceDetectorMango@objc(pl)UFaceDetectorDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)delegate",
+                "mangledName": "$s18UFaceDetectorMango0aB0C8delegateAA0aB8Delegate_pSgvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UFaceDetectorMango.UFaceDetectorDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UFaceDetectorDelegate",
+                        "printedName": "UFaceDetectorMango.UFaceDetectorDelegate",
+                        "usr": "c:@M@UFaceDetectorMango@objc(pl)UFaceDetectorDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)setDelegate:",
+                "mangledName": "$s18UFaceDetectorMango0aB0C8delegateAA0aB8Delegate_pSgvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0aB0C8delegateAA0aB8Delegate_pSgvM",
+                "mangledName": "$s18UFaceDetectorMango0aB0C8delegateAA0aB8Delegate_pSgvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setAntiSpoofingUse",
+            "printedName": "setAntiSpoofingUse(useSpoof1:useSpoof2:useSpoof3:useSpoof4:useEyeBlink:useMaskDetect:threshold1:useLocalFeature:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)setAntiSpoofingUseWithUseSpoof1:useSpoof2:useSpoof3:useSpoof4:useEyeBlink:useMaskDetect:threshold1:useLocalFeature:",
+            "mangledName": "$s18UFaceDetectorMango0aB0C18setAntiSpoofingUse9useSpoof10H6Spoof20H6Spoof30H6Spoof40H8EyeBlink0H10MaskDetect10threshold10H12LocalFeatureySb_S5bSfSbtF",
+            "moduleName": "UFaceDetectorMango",
+            "objc_name": "setAntiSpoofingUseWithUseSpoof1:useSpoof2:useSpoof3:useSpoof4:useEyeBlink:useMaskDetect:threshold1:useLocalFeature:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initDetector",
+            "printedName": "initDetector(licenseKey:modelDirectory:cameraPosition:videoOrientation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Position",
+                "printedName": "AVFoundation.AVCaptureDevice.Position",
+                "hasDefaultArg": true,
+                "usr": "c:@E@AVCaptureDevicePosition"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureVideoOrientation",
+                "printedName": "AVFoundation.AVCaptureVideoOrientation",
+                "hasDefaultArg": true,
+                "usr": "c:@E@AVCaptureVideoOrientation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)initDetectorWithLicenseKey:modelDirectory:cameraPosition:videoOrientation:",
+            "mangledName": "$s18UFaceDetectorMango0aB0C04initB010licenseKey14modelDirectory14cameraPosition16videoOrientationySS_SSSo015AVCaptureDeviceJ0VSo0m5VideoL0VtF",
+            "moduleName": "UFaceDetectorMango",
+            "objc_name": "initDetectorWithLicenseKey:modelDirectory:cameraPosition:videoOrientation:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startDetect",
+            "printedName": "startDetect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)startDetect",
+            "mangledName": "$s18UFaceDetectorMango0aB0C11startDetectyyF",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseDetector",
+            "printedName": "pauseDetector()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)pauseDetector",
+            "mangledName": "$s18UFaceDetectorMango0aB0C05pauseB0yyF",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reStartDetector",
+            "printedName": "reStartDetector()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)reStartDetector",
+            "mangledName": "$s18UFaceDetectorMango0aB0C07reStartB0yyF",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initEyeBlinkNumber",
+            "printedName": "initEyeBlinkNumber()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)initEyeBlinkNumber",
+            "mangledName": "$s18UFaceDetectorMango0aB0C18initEyeBlinkNumberyyF",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopDetector",
+            "printedName": "stopDetector()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)stopDetector",
+            "mangledName": "$s18UFaceDetectorMango0aB0C04stopB0yyF",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startPitchYawRoll",
+            "printedName": "startPitchYawRoll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)startPitchYawRoll",
+            "mangledName": "$s18UFaceDetectorMango0aB0C17startPitchYawRollyyF",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopPtichYawRoll",
+            "printedName": "stopPtichYawRoll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)stopPtichYawRoll",
+            "mangledName": "$s18UFaceDetectorMango0aB0C16stopPtichYawRollyyF",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s18UFaceDetectorMango0aB0C13captureOutput_03didE04fromySo09AVCaptureE0C_So17CMSampleBufferRefaSo0H10ConnectionCtF",
+            "moduleName": "UFaceDetectorMango",
+            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "depthDataOutput",
+            "printedName": "depthDataOutput(_:didOutput:timestamp:connection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureDepthDataOutput",
+                "printedName": "AVFoundation.AVCaptureDepthDataOutput",
+                "usr": "c:objc(cs)AVCaptureDepthDataOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVDepthData",
+                "printedName": "AVFoundation.AVDepthData",
+                "usr": "c:objc(cs)AVDepthData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)depthDataOutput:didOutputDepthData:timestamp:connection:",
+            "mangledName": "$s18UFaceDetectorMango0aB0C15depthDataOutput_03didF09timestamp10connectionySo014AVCaptureDeptheF0C_So07AVDepthE0CSo6CMTimeaSo0J10ConnectionCtF",
+            "moduleName": "UFaceDetectorMango",
+            "intro_iOS": "11.0",
+            "objc_name": "depthDataOutput:didOutputDepthData:timestamp:connection:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "compareFeatureData",
+            "printedName": "compareFeatureData(targetData:compareData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)compareFeatureDataWithTargetData:compareData:",
+            "mangledName": "$s18UFaceDetectorMango0aB0C18compareFeatureData06targetF00dF0Sf10Foundation0F0V_AItF",
+            "moduleName": "UFaceDetectorMango",
+            "objc_name": "compareFeatureDataWithTargetData:compareData:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UFaceDetector",
+                "printedName": "UFaceDetectorMango.UFaceDetector",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector(im)init",
+            "mangledName": "$s18UFaceDetectorMango0aB0CACycfc",
+            "moduleName": "UFaceDetectorMango",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceDetector",
+        "mangledName": "$s18UFaceDetectorMango0aB0C",
+        "moduleName": "UFaceDetectorMango",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UFaceDetectorMango",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UFaceDetectorMango"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UFaceDetectorMango",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UFaceError",
+        "printedName": "UFaceError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError(py)errorCode",
+            "mangledName": "$s18UFaceDetectorMango0A5ErrorC9errorCodeSSSgvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError(im)errorCode",
+                "mangledName": "$s18UFaceDetectorMango0A5ErrorC9errorCodeSSSgvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError(im)setErrorCode:",
+                "mangledName": "$s18UFaceDetectorMango0A5ErrorC9errorCodeSSSgvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A5ErrorC9errorCodeSSSgvM",
+                "mangledName": "$s18UFaceDetectorMango0A5ErrorC9errorCodeSSSgvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError(py)errorDescription",
+            "mangledName": "$s18UFaceDetectorMango0A5ErrorC16errorDescriptionSSSgvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError(im)errorDescription",
+                "mangledName": "$s18UFaceDetectorMango0A5ErrorC16errorDescriptionSSSgvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError(im)setErrorDescription:",
+                "mangledName": "$s18UFaceDetectorMango0A5ErrorC16errorDescriptionSSSgvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A5ErrorC16errorDescriptionSSSgvM",
+                "mangledName": "$s18UFaceDetectorMango0A5ErrorC16errorDescriptionSSSgvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:desc:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UFaceError",
+                "printedName": "UFaceDetectorMango.UFaceError",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError(im)initWithCode:desc:",
+            "mangledName": "$s18UFaceDetectorMango0A5ErrorC4code4descACSS_SStcfc",
+            "moduleName": "UFaceDetectorMango",
+            "objc_name": "initWithCode:desc:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UFaceError",
+                "printedName": "UFaceDetectorMango.UFaceError",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError(im)init",
+            "mangledName": "$s18UFaceDetectorMango0A5ErrorCACycfc",
+            "moduleName": "UFaceDetectorMango",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError",
+        "mangledName": "$s18UFaceDetectorMango0A5ErrorC",
+        "moduleName": "UFaceDetectorMango",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UFaceDetectorMango",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UFaceDetectorMango"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UFaceResult",
+        "printedName": "UFaceResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fullImage",
+            "printedName": "fullImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(py)fullImage",
+            "mangledName": "$s18UFaceDetectorMango0A6ResultC9fullImageSo7UIImageCSgvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)fullImage",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC9fullImageSo7UIImageCSgvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)setFullImage:",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC9fullImageSo7UIImageCSgvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A6ResultC9fullImageSo7UIImageCSgvM",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC9fullImageSo7UIImageCSgvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cropImage",
+            "printedName": "cropImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(py)cropImage",
+            "mangledName": "$s18UFaceDetectorMango0A6ResultC9cropImageSo7UIImageCSgvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)cropImage",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC9cropImageSo7UIImageCSgvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)setCropImage:",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC9cropImageSo7UIImageCSgvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A6ResultC9cropImageSo7UIImageCSgvM",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC9cropImageSo7UIImageCSgvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "depthImage",
+            "printedName": "depthImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(py)depthImage",
+            "mangledName": "$s18UFaceDetectorMango0A6ResultC10depthImageSo7UIImageCSgvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)depthImage",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC10depthImageSo7UIImageCSgvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)setDepthImage:",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC10depthImageSo7UIImageCSgvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A6ResultC10depthImageSo7UIImageCSgvM",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC10depthImageSo7UIImageCSgvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isMask",
+            "printedName": "isMask",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(py)isMask",
+            "mangledName": "$s18UFaceDetectorMango0A6ResultC6isMaskSbvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)isMask",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC6isMaskSbvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)setIsMask:",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC6isMaskSbvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A6ResultC6isMaskSbvM",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC6isMaskSbvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFake",
+            "printedName": "isFake",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(py)isFake",
+            "mangledName": "$s18UFaceDetectorMango0A6ResultC6isFakeSbvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)isFake",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC6isFakeSbvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)setIsFake:",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC6isFakeSbvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A6ResultC6isFakeSbvM",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC6isFakeSbvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isEyeBlink",
+            "printedName": "isEyeBlink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(py)isEyeBlink",
+            "mangledName": "$s18UFaceDetectorMango0A6ResultC10isEyeBlinkSbvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)isEyeBlink",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC10isEyeBlinkSbvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)setIsEyeBlink:",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC10isEyeBlinkSbvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A6ResultC10isEyeBlinkSbvM",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC10isEyeBlinkSbvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "feature",
+            "printedName": "feature",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(py)feature",
+            "mangledName": "$s18UFaceDetectorMango0A6ResultC7feature10Foundation4DataVSgvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)feature",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC7feature10Foundation4DataVSgvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)setFeature:",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC7feature10Foundation4DataVSgvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A6ResultC7feature10Foundation4DataVSgvM",
+                "mangledName": "$s18UFaceDetectorMango0A6ResultC7feature10Foundation4DataVSgvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(full:crop:depth:isMask:isFake:isEyeBlink:feature:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UFaceResult",
+                "printedName": "UFaceDetectorMango.UFaceResult",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)initWithFull:crop:depth:isMask:isFake:isEyeBlink:feature:",
+            "mangledName": "$s18UFaceDetectorMango0A6ResultC4full4crop5depth6isMask0H4Fake0H8EyeBlink7featureACSo7UIImageC_A2LSgS3b10Foundation4DataVSgtcfc",
+            "moduleName": "UFaceDetectorMango",
+            "objc_name": "initWithFull:crop:depth:isMask:isFake:isEyeBlink:feature:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UFaceResult",
+                "printedName": "UFaceDetectorMango.UFaceResult",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult(im)init",
+            "mangledName": "$s18UFaceDetectorMango0A6ResultCACycfc",
+            "moduleName": "UFaceDetectorMango",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceResult",
+        "mangledName": "$s18UFaceDetectorMango0A6ResultC",
+        "moduleName": "UFaceDetectorMango",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UFaceDetectorMango",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UFaceDetectorMango.MKGAmango",
+        "printedName": "UFaceDetectorMango.MKGAmango",
+        "declKind": "Import",
+        "moduleName": "UFaceDetectorMango"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UFaceDetectorMango",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UFaceImageResult",
+        "printedName": "UFaceImageResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isMask",
+            "printedName": "isMask",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(py)isMask",
+            "mangledName": "$s18UFaceDetectorMango0A11ImageResultC6isMaskSbvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(im)isMask",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC6isMaskSbvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(im)setIsMask:",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC6isMaskSbvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A11ImageResultC6isMaskSbvM",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC6isMaskSbvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFake",
+            "printedName": "isFake",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(py)isFake",
+            "mangledName": "$s18UFaceDetectorMango0A11ImageResultC6isFakeSbvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(im)isFake",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC6isFakeSbvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(im)setIsFake:",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC6isFakeSbvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A11ImageResultC6isFakeSbvM",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC6isFakeSbvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceBoundingBox",
+            "printedName": "faceBoundingBox",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(py)faceBoundingBox",
+            "mangledName": "$s18UFaceDetectorMango0A11ImageResultC15faceBoundingBoxSo6CGRectVvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(im)faceBoundingBox",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC15faceBoundingBoxSo6CGRectVvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(im)setFaceBoundingBox:",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC15faceBoundingBoxSo6CGRectVvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A11ImageResultC15faceBoundingBoxSo6CGRectVvM",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC15faceBoundingBoxSo6CGRectVvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "feature",
+            "printedName": "feature",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(py)feature",
+            "mangledName": "$s18UFaceDetectorMango0A11ImageResultC7feature10Foundation4DataVSgvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(im)feature",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC7feature10Foundation4DataVSgvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(im)setFeature:",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC7feature10Foundation4DataVSgvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A11ImageResultC7feature10Foundation4DataVSgvM",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC7feature10Foundation4DataVSgvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ufaceError",
+            "printedName": "ufaceError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UFaceDetectorMango.UFaceError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UFaceError",
+                    "printedName": "UFaceDetectorMango.UFaceError",
+                    "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(py)ufaceError",
+            "mangledName": "$s18UFaceDetectorMango0A11ImageResultC10ufaceErrorAA0aG0CSgvp",
+            "moduleName": "UFaceDetectorMango",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UFaceDetectorMango.UFaceError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UFaceError",
+                        "printedName": "UFaceDetectorMango.UFaceError",
+                        "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(im)ufaceError",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC10ufaceErrorAA0aG0CSgvg",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UFaceDetectorMango.UFaceError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UFaceError",
+                        "printedName": "UFaceDetectorMango.UFaceError",
+                        "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(im)setUfaceError:",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC10ufaceErrorAA0aG0CSgvs",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UFaceDetectorMango0A11ImageResultC10ufaceErrorAA0aG0CSgvM",
+                "mangledName": "$s18UFaceDetectorMango0A11ImageResultC10ufaceErrorAA0aG0CSgvM",
+                "moduleName": "UFaceDetectorMango",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isMask:isFake:faceBoundingBox:feature:ufaceError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UFaceImageResult",
+                "printedName": "UFaceDetectorMango.UFaceImageResult",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "hasDefaultArg": true,
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UFaceDetectorMango.UFaceError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UFaceError",
+                    "printedName": "UFaceDetectorMango.UFaceError",
+                    "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceError"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(im)initWithIsMask:isFake:faceBoundingBox:feature:ufaceError:",
+            "mangledName": "$s18UFaceDetectorMango0A11ImageResultC6isMask0F4Fake15faceBoundingBox7feature10ufaceErrorACSb_SbSo6CGRectV10Foundation4DataVSgAA0aN0CSgtcfc",
+            "moduleName": "UFaceDetectorMango",
+            "objc_name": "initWithIsMask:isFake:faceBoundingBox:feature:ufaceError:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UFaceImageResult",
+                "printedName": "UFaceDetectorMango.UFaceImageResult",
+                "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult(im)init",
+            "mangledName": "$s18UFaceDetectorMango0A11ImageResultCACycfc",
+            "moduleName": "UFaceDetectorMango",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UFaceDetectorMango@objc(cs)UFaceImageResult",
+        "mangledName": "$s18UFaceDetectorMango0A11ImageResultC",
+        "moduleName": "UFaceDetectorMango",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 230,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 273,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 316,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 361,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 457,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 481,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 509,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 539,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1385,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1460,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 1539,
+      "length": 7,
+      "value": "\"76001\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 1554,
+      "length": 19,
+      "value": "\"Face Rect is Null\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1715,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 1788,
+      "length": 7,
+      "value": "\"76002\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 1803,
+      "length": 21,
+      "value": "\"Fake Number is Null\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1872,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1909,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2000,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2072,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2134,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2137,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2140,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2183,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2256,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2318,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2391,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 2527,
+      "length": 7,
+      "value": "\"76003\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 2542,
+      "length": 19,
+      "value": "\"Fake Number Error\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2691,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 2928,
+      "length": 7,
+      "value": "\"76000\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 2943,
+      "length": 19,
+      "value": "\"Face Not Detected\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1180,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1225,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1296,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1339,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1383,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1422,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1508,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1551,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 1596,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1690,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1738,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1780,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1813,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1851,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1936,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1984,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2364,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2388,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2412,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2436,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2491,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2519,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 2545,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2575,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4215,
+      "length": 7,
+      "value": "\"73002\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4230,
+      "length": 30,
+      "value": "\"Camera initial setup failed.\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4856,
+      "length": 7,
+      "value": "\"73002\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4871,
+      "length": 30,
+      "value": "\"Camera initial setup failed.\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 5086,
+      "length": 7,
+      "value": "\"73001\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 5101,
+      "length": 50,
+      "value": "\"You do not have permission to access the camera.\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5592,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5914,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6340,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6518,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 6596,
+      "length": 12,
+      "value": "\"VideoQueue\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6942,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7008,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7253,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7286,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 7363,
+      "length": 7,
+      "value": "\"depth\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7661,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7728,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7865,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7898,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7960,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8078,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8187,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8227,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 8444,
+      "length": 14,
+      "value": "\"startRunning\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8548,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8573,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8600,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8634,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8715,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8748,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8830,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8855,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8882,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8916,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9186,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9219,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9437,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9470,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9558,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10191,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10309,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10354,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10397,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10750,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10836,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11116,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12701,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12794,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 12929,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13072,
+      "length": 3,
+      "value": "285"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13123,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13345,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 13579,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 13637,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 13743,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 13853,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 14017,
+      "length": 7,
+      "value": "\"72001\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 14032,
+      "length": 25,
+      "value": "\"The face is off screen.\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14138,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14692,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14749,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14883,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14940,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15003,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15063,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 15154,
+      "length": 34,
+      "value": "\"Result Number ================= \""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15289,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15401,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15523,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15606,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15719,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15841,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15954,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16076,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16190,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16370,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 16987,
+      "length": 14,
+      "value": "\"spoofNum :: \""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17060,
+      "length": 2,
+      "value": "-9"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17122,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17228,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17281,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17531,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19049,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19126,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 19205,
+      "length": 59,
+      "value": "\"==================Create PNG Data fail.==================\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 19326,
+      "length": 64,
+      "value": "\"==================Create sample buffer fail.==================\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19800,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 20125,
+      "length": 18,
+      "value": "\"CIExposureAdjust\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 20268,
+      "length": 4,
+      "value": "64.0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21343,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21578,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21799,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21991,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22086,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22148,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22201,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22340,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 22698,
+      "length": 7,
+      "value": "\"75000\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 22713,
+      "length": 49,
+      "value": "\"The local feature point use setting is not set.\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22790,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23271,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23524,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23839,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1857,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1916,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceError.swift",
+      "kind": "StringLiteral",
+      "offset": 132,
+      "length": 10,
+      "value": "\"UFaceDetectorMango.UFaceError\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 330,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 372,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 418,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceResult.swift",
+      "kind": "StringLiteral",
+      "offset": 146,
+      "length": 11,
+      "value": "\"UFaceDetectorMango.UFaceResult\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 395,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 401,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 437,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 483,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 19,
+      "value": "\"Mango init called\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 670,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 698,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 727,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 750,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 777,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 805,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "FloatLiteral",
+      "offset": 831,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 861,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1032,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 7,
+      "value": "\"74000\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 60,
+      "value": "\"Invalid license or mandatory learning file does not exist.\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1367,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 1411,
+      "length": 7,
+      "value": "\"74001\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 1426,
+      "length": 40,
+      "value": "\"Failed to set learning file directory.\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1662,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 1710,
+      "length": 7,
+      "value": "\"74002\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 1725,
+      "length": 37,
+      "value": "\"There is no mobileattack.onnx file.\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1917,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 1965,
+      "length": 7,
+      "value": "\"74003\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 1980,
+      "length": 60,
+      "value": "\"The files metsakuur_v2se_230405_20210525.bin do not exist.\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2191,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 2239,
+      "length": 7,
+      "value": "\"74004\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 2254,
+      "length": 36,
+      "value": "\"The eyeblink.onnx file is missing.\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 2493,
+      "length": 12,
+      "value": "\"mbfNum :: \""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2544,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 2592,
+      "length": 7,
+      "value": "\"74005\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 2607,
+      "length": 41,
+      "value": "\"There is no mobilefacenet_bin.dat file.\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2718,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2899,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3092,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "Array",
+      "offset": 3098,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3129,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 3151,
+      "length": 56,
+      "value": "\"==================Face Rect is null.==================\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3276,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 3316,
+      "length": 56,
+      "value": "\"==================Face Rect is null.==================\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3450,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 3490,
+      "length": 56,
+      "value": "\"==================Face Rect is null.==================\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3628,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 3668,
+      "length": 56,
+      "value": "\"==================Face Rect is null.==================\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3807,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 3847,
+      "length": 56,
+      "value": "\"==================Face Rect is null.==================\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4238,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 4274,
+      "length": 58,
+      "value": "\"==================Fake Number is null.==================\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4366,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4415,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 4451,
+      "length": 56,
+      "value": "\"==================Fake Rect is null.==================\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4541,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4590,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 4626,
+      "length": 56,
+      "value": "\"==================Fake Rect is null.==================\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4716,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4769,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 4805,
+      "length": 56,
+      "value": "\"==================Fake Rect is null.==================\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4895,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4949,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 4985,
+      "length": 56,
+      "value": "\"==================Fake Rect is null.==================\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5075,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 5102,
+      "length": 9,
+      "value": "\"resultX\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 5136,
+      "length": 9,
+      "value": "\"resultY\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 5170,
+      "length": 13,
+      "value": "\"resultWidth\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 5212,
+      "length": 14,
+      "value": "\"resultHeight\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6194,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 6325,
+      "length": 31,
+      "value": "\"blinkNumber :: \""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "StringLiteral",
+      "offset": 6355,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6443,
+      "length": 6,
+      "value": "100000"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6468,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6613,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6641,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6703,
+      "length": 5,
+      "value": "10000"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6711,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6731,
+      "length": 5,
+      "value": "10000"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6739,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6766,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6860,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7326,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7368,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceMango.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7411,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 197,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 239,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 436,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 458,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songjaesang\/Documents\/Work\/uface_mango_ios\/UFaceDetectorMango\/UFaceDetectorMango\/UFaceImageDetector\/UFaceImageResult.swift",
+      "kind": "StringLiteral",
+      "offset": 132,
+      "length": 16,
+      "value": "\"UFaceDetectorMango.UFaceImageResult\""
+    }
+  ]
+}

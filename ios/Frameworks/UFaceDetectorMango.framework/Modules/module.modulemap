@@ -1,0 +1,15 @@
+
+framework module UFaceDetectorMango {
+    umbrella header "UFaceDetectorMango.h"
+    export *
+    module * { export * }
+    
+    explicit module MKGAmango {
+        header "MKGAmango.h"
+    }
+}
+
+module UFaceDetectorMango.Swift {
+  header "UFaceDetectorMango-Swift.h"
+  requires objc
+}

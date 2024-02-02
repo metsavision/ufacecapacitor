@@ -1,0 +1,77 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UFaceDetectorMango
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Foundation
+import UFaceDetectorMango.MKGAmango
+import Swift
+@_exported import UFaceDetectorMango
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc public class UFaceImageDetector : ObjectiveC.NSObject {
+  @objc public func setAntiSpoofingUse(useSpoof1: Swift.Bool = true, useSpoof2: Swift.Bool = true, useMaskDetect: Swift.Bool = true, useLocalFeature: Swift.Bool = false)
+  @objc public func initDetector(licenseKey: Swift.String, modelDirectory: Swift.String) -> UFaceDetectorMango.UFaceError?
+  @objc public func detectFace(pngData: Foundation.Data) -> UFaceDetectorMango.UFaceImageResult
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol UFaceDetectorDelegate {
+  @objc func ufaceDetector(detector: UFaceDetectorMango.UFaceDetector, error: UFaceDetectorMango.UFaceError)
+  @objc func ufaceDetector(detector: UFaceDetectorMango.UFaceDetector, result: UFaceDetectorMango.UFaceResult)
+  @objc func ufaceDetectorSetCameraSessionComplete()
+  @objc func ufaceDetectorPitchYawRoll(pitch: Swift.Float, yaw: Swift.Float, roll: Swift.Float)
+  @objc func ufaceIsDetectFace(isDetectFace: Swift.Bool)
+  @objc func ufaceDetectSmallFace()
+  @objc func ufaceDetectLargeFace()
+}
+@_inheritsConvenienceInitializers @objc public class UFaceDetector : ObjectiveC.NSObject, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCaptureDepthDataOutputDelegate {
+  @objc public var isDetecting: Swift.Bool {
+    @objc get
+  }
+  @objc public var previewLayer: AVFoundation.AVCaptureVideoPreviewLayer!
+  @objc public var delegate: (any UFaceDetectorMango.UFaceDetectorDelegate)?
+  @objc public func setAntiSpoofingUse(useSpoof1: Swift.Bool = true, useSpoof2: Swift.Bool = true, useSpoof3: Swift.Bool = true, useSpoof4: Swift.Bool = false, useEyeBlink: Swift.Bool = true, useMaskDetect: Swift.Bool = true, threshold1: Swift.Float = 0.75, useLocalFeature: Swift.Bool = false)
+  @objc public func initDetector(licenseKey: Swift.String, modelDirectory: Swift.String, cameraPosition: AVFoundation.AVCaptureDevice.Position = .front, videoOrientation: AVFoundation.AVCaptureVideoOrientation = .portrait)
+  @objc public func startDetect()
+  @objc public func pauseDetector()
+  @objc public func reStartDetector()
+  @objc public func initEyeBlinkNumber()
+  @objc public func stopDetector()
+  @objc public func startPitchYawRoll()
+  @objc public func stopPtichYawRoll()
+  @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @available(iOS 11.0, *)
+  @objc public func depthDataOutput(_ output: AVFoundation.AVCaptureDepthDataOutput, didOutput depthData: AVFoundation.AVDepthData, timestamp: CoreMedia.CMTime, connection: AVFoundation.AVCaptureConnection)
+  @objc public func compareFeatureData(targetData: Foundation.Data, compareData: Foundation.Data) -> Swift.Float
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class UFaceError : ObjectiveC.NSObject {
+  @objc public var errorCode: Swift.String!
+  @objc public var errorDescription: Swift.String!
+  @objc public init(code: Swift.String, desc: Swift.String)
+  @objc deinit
+}
+@objc public class UFaceResult : ObjectiveC.NSObject {
+  @objc public var fullImage: UIKit.UIImage!
+  @objc public var cropImage: UIKit.UIImage!
+  @objc public var depthImage: UIKit.UIImage?
+  @objc public var isMask: Swift.Bool
+  @objc public var isFake: Swift.Bool
+  @objc public var isEyeBlink: Swift.Bool
+  @objc public var feature: Foundation.Data?
+  @objc public init(full: UIKit.UIImage, crop: UIKit.UIImage, depth: UIKit.UIImage?, isMask: Swift.Bool, isFake: Swift.Bool, isEyeBlink: Swift.Bool, feature: Foundation.Data?)
+  @objc deinit
+}
+@objc public class UFaceImageResult : ObjectiveC.NSObject {
+  @objc public var isMask: Swift.Bool
+  @objc public var isFake: Swift.Bool
+  @objc public var faceBoundingBox: CoreFoundation.CGRect
+  @objc public var feature: Foundation.Data?
+  @objc public var ufaceError: UFaceDetectorMango.UFaceError?
+  @objc public init(isMask: Swift.Bool = false, isFake: Swift.Bool = false, faceBoundingBox: CoreFoundation.CGRect = CGRect(), feature: Foundation.Data? = nil, ufaceError: UFaceDetectorMango.UFaceError? = nil)
+  @objc deinit
+}
