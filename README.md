@@ -32,7 +32,7 @@ verify(param: { value: string; })
 
 
 * [`ufacesdk.addListener(...)`](#addListener)
-* 
+
 ### addListener(...)
 
 ```typescript
